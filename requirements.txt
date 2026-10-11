@@ -1,0 +1,23 @@
+# Gesture Beats — 학습 의존성 (GestureBeats.ipynb)
+# 데모는 python demo.py 만 있으면 된다 (표준 라이브러리).
+# Python 3.10 ~ 3.11 권장
+
+# 공통
+numpy
+matplotlib
+opencv-python
+pillow
+pyyaml
+tqdm
+
+# YOLO 학습 — GPU는 PyTorch CUDA 휠이 필요
+ultralytics>=8.1.0
+onnx>=1.14
+
+# 반드시 CUDA 휠로 설치 (pip 기본 인덱스의 torch는 CPU):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+torch
+torchvision
+
+# 브라우저 추론용 ONNX (노트북 export 검증)
+onnxruntime-gpu

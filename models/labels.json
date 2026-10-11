@@ -1,0 +1,16 @@
+{
+  "names": [
+    "fist",
+    "palm",
+    "peace",
+    "one",
+    "two_up",
+    "three",
+    "ok",
+    "like",
+    "dislike",
+    "call"
+  ],
+  "imgsz": 320,
+  "conf": 0.55
+}
